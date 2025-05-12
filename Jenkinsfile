@@ -18,7 +18,7 @@ pipeline {
     HOST_PORT             = 80
     CONTAINER_PORT        = 3000
     SONAR_PROJECT_KEY     = 'nodejs-app-sonar'
-    SONAR_HOST_URL        = 'http://18.133.226.168:9000/'
+    SONAR_HOST_URL        = ''
     SONAR_CREDENTIALS_ID  = 'sonar-creds' // Replace with your actual SonarQube credentials ID
     NVD_API_KEY = 'NVD_API_KEY' // Jenkins credentials ID for NVD API key
   }
